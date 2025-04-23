@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  optix.movies.api:
+    image: ${DOCKER_REGISTRY-}optixmoviesapi
+    build:
+      context: .
+      dockerfile: Optix.Movies\Dockerfile

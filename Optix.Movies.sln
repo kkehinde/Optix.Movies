@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optix.Movies.Api", "Optix.Movies\Optix.Movies.Api.csproj", "{CAF9379F-D4CD-4307-BB94-7EC4C874FBB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optix.Movies.Data", "Optix.Movies.Data\Optix.Movies.Data.csproj", "{01488188-5F21-41F4-9C02-F7131B6B83AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optix.Movies.DomainModels", "Optix.Movies.DomainModels\Optix.Movies.DomainModels.csproj", "{F7E01B13-7172-42E9-92C4-4A84639BBAA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optix.Movies.Objects", "Optix.Movies.Objects\Optix.Movies.Objects.csproj", "{14E55F02-7726-4965-AE48-BE3E342A3480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optix.Movies.Services", "Optix.Movies.Services\Optix.Movies.Services.csproj", "{25B99F5A-2AC1-482B-942D-27DC98CBCB31}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{975079B8-6229-48EF-A81F-E76D28D5622B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAF9379F-D4CD-4307-BB94-7EC4C874FBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF9379F-D4CD-4307-BB94-7EC4C874FBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF9379F-D4CD-4307-BB94-7EC4C874FBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF9379F-D4CD-4307-BB94-7EC4C874FBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01488188-5F21-41F4-9C02-F7131B6B83AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01488188-5F21-41F4-9C02-F7131B6B83AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01488188-5F21-41F4-9C02-F7131B6B83AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01488188-5F21-41F4-9C02-F7131B6B83AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E01B13-7172-42E9-92C4-4A84639BBAA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E01B13-7172-42E9-92C4-4A84639BBAA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E01B13-7172-42E9-92C4-4A84639BBAA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E01B13-7172-42E9-92C4-4A84639BBAA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E55F02-7726-4965-AE48-BE3E342A3480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E55F02-7726-4965-AE48-BE3E342A3480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E55F02-7726-4965-AE48-BE3E342A3480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E55F02-7726-4965-AE48-BE3E342A3480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B99F5A-2AC1-482B-942D-27DC98CBCB31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B99F5A-2AC1-482B-942D-27DC98CBCB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B99F5A-2AC1-482B-942D-27DC98CBCB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B99F5A-2AC1-482B-942D-27DC98CBCB31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{975079B8-6229-48EF-A81F-E76D28D5622B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{975079B8-6229-48EF-A81F-E76D28D5622B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{975079B8-6229-48EF-A81F-E76D28D5622B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{975079B8-6229-48EF-A81F-E76D28D5622B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C364B42F-2BF2-42B8-932B-CDFE0099673C}
+	EndGlobalSection
+EndGlobal
